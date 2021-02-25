@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vertical_render",
+  "version": "${version}",
+  "name": "Vertical_render",
+  "description": "add vertical render distance",
+  "authors": [
+    "IDarKay"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/vertical_render/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fr.idarkay.vertical_render.client.VerticalRenderClient"
+    ],
+    "main": [
+      "fr.idarkay.vertical_render.VerticalRender"
+    ]
+  },
+  "mixins": [
+    "vertical_render.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+
+    "minecraft": "1.17-alpha.21.8.a"
+  }
+}

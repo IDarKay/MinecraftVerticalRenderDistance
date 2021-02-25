@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.idarkay.vertical_render.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+
+  ],
+  "client": [
+    "MixinVideoOptionsScreen",
+    "MixinWorldRenderer",
+    "MixinBuiltChunkStorage"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
