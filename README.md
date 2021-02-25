@@ -22,6 +22,7 @@ by IDarKay
 ## 🧐 About <a name = "about"></a>
 
 This mod made by IDarKay
+
 ####Functionalities: 
     - Add vertical Render distance from 2 to 48 chuncks
     
